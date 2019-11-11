@@ -16,5 +16,54 @@ namespace Northwind_Management_Suite
         {
             InitializeComponent();
         }
+
+        private void viewControlComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch(viewControlComboBox.SelectedIndex)
+            {
+                case 0:
+
+                    break;
+
+                case 1:
+
+                    break;
+
+                case 2:
+
+                    break;
+                case 3:
+
+                    break;
+
+                case 4:
+
+                    break;
+
+                case 5:
+
+                    break;
+
+                case 6:
+
+                    break;
+
+                case 7:
+
+                    break;
+
+                default:
+
+                    break;
+            }
+        }
+
+        private void categoriesBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.categoriesBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.businessDatabase);
+
+        }
     }
 }
