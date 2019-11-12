@@ -168,12 +168,14 @@ namespace Northwind_Management_Suite
                     customersBindingNavigator.Visible = false;
                     shippersBindingNavigator.Visible = false;
                     suppliersBindingNavigator1.Visible = false;
+
                     break;
 
                 case 6:
                     this.Text = "Northwind Management Suite (Viewing Shippers)";
 
                     shippersDataGridView.Visible = true;
+                    shippersBindingNavigator.Visible = true;
 
                     productsDataGridView.Visible = false;
                     ordersDataGridView.Visible = false;
@@ -185,13 +187,20 @@ namespace Northwind_Management_Suite
 
 
                     categoriesBindingNavigator.Visible = false;
-                    /* Delete me and finish setting visibilities */
+                    productsBindingNavigator.Visible = false;
+                    ordersBindingNavigator.Visible = false;
+                    orderDetailsBindingNavigator.Visible = false;
+                    employeesBindingNavigator.Visible = false;
+                    customersBindingNavigator.Visible = false;
+                    suppliersBindingNavigator1.Visible = false;
+
                     break;
 
                 case 7:
                     this.Text = "Northwind Management Suite (Viewing Suppliers)";
 
                     suppliersDataGridView.Visible = true;
+                    suppliersBindingNavigator1.Visible = true;
 
                     shippersDataGridView.Visible = false;
                     productsDataGridView.Visible = false;
@@ -203,7 +212,13 @@ namespace Northwind_Management_Suite
 
 
                     categoriesBindingNavigator.Visible = false;
-                    /* Delete me and finish setting visibilities */
+                    shippersBindingNavigator.Visible = false;
+                    productsBindingNavigator.Visible = false;
+                    ordersBindingNavigator.Visible = false;
+                    orderDetailsBindingNavigator.Visible = false;
+                    employeesBindingNavigator.Visible = false;
+                    customersBindingNavigator.Visible = false;
+
                     break;
 
                 default:
