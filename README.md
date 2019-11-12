@@ -17,3 +17,26 @@ Windows based graphical application to create, read, update, and delete data for
 ### Audience 
 Northwind database administrators and employees
 
+------------------------------------------------------------------------------------------
+## Business Need:
+
+Management database for a small depot that supplies local restaurants in Scranton, Pennslyvania. We need a database to localize all of our data regarding customers, orders, and shipment, employees, and product details.
+
+### Tables:
+
+* Categories
+   * CategoryID, CategoryName, Description
+* Customers
+    CustomerID, CustomerName, ContactName, Address, City, PostalCode, Country
+* Employees
+    EmployeeID, LastName, FirstName, BirthDate, Photo, Notes
+* Order_Details
+   * OrderDetailID, OrderID, ProductID, Quantity
+* Orders 
+   * OrderID, CustomerID, EmployeeID, OrderDate, ShipperID, 
+* Products
+   * ProductID, ProductName, SupplierID, CategoryID, Unit, Price
+* Shippers
+   * ShipperID, ShipperName, Phone
+* Suppliers
+   * SupplierID, SupplierName, ContactName, Address, City, PostalCode, Country, Phone
