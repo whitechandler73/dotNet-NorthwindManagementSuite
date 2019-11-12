@@ -110,7 +110,13 @@ namespace Northwind_Management_Suite
 
                     categoriesBindingNavigator.Visible = false;
                     employeesBindingNavigator.Visible = false;
-                    customersBindingNavigator.Visible = false; // Needs work
+                    customersBindingNavigator.Visible = false;
+                    categoriesBindingNavigator.Visible = false;
+                    productsBindingNavigator.Visible = false;
+                    productsBindingNavigator.Visible = false;
+                    ordersBindingNavigator.Visible = false;
+                    shippersBindingNavigator.Visible = false;
+                    suppliersBindingNavigator1.Visible = false;
 
                     break;
 
@@ -127,8 +133,9 @@ namespace Northwind_Management_Suite
                     shippersDataGridView.Visible = false;
                     suppliersDataGridView.Visible = false;
 
-
+                    
                     categoriesBindingNavigator.Visible = false;
+                    /* Delete me and finish setting visibilities */
                     break;
 
                 case 5:
@@ -147,6 +154,7 @@ namespace Northwind_Management_Suite
 
 
                     categoriesBindingNavigator.Visible = false;
+                    /* Delete me and finish setting visibilities */
                     break;
 
                 case 6:
@@ -164,6 +172,7 @@ namespace Northwind_Management_Suite
 
 
                     categoriesBindingNavigator.Visible = false;
+                    /* Delete me and finish setting visibilities */
                     break;
 
                 case 7:
@@ -181,6 +190,7 @@ namespace Northwind_Management_Suite
 
 
                     categoriesBindingNavigator.Visible = false;
+                    /* Delete me and finish setting visibilities */
                     break;
 
                 default:
