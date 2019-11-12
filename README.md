@@ -25,11 +25,11 @@ Management database for a small depot that supplies local restaurants in Scranto
 ### Tables:
 
 * Categories
-   * CategoryID, CategoryName, Description
-* Customers
-    CustomerID, CustomerName, ContactName, Address, City, PostalCode, Country
+   * CategoryID, CategoryName, Description 
+* Customers 
+   * CustomerID, CustomerName, ContactName, Address, City, PostalCode, Country
 * Employees
-    EmployeeID, LastName, FirstName, BirthDate, Photo, Notes
+   * EmployeeID, LastName, FirstName, BirthDate, Photo, Notes
 * Order_Details
    * OrderDetailID, OrderID, ProductID, Quantity
 * Orders 
