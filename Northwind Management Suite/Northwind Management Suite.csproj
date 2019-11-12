@@ -97,6 +97,7 @@
     <None Include="BusinessDatabase.xss">
       <DependentUpon>BusinessDatabase.xsd</DependentUpon>
     </None>
+    <None Include="Properties\DataSources\Northwind_Management_Suite.BusinessDatabaseTableAdapters.CustomersTableAdapter.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
