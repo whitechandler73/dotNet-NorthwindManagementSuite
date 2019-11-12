@@ -5,11 +5,11 @@
 ### Team Members: 
 Team Member | Position
 ------------ | -------------
-* Chandler White | _Team Lead_
-* Daniel Lucy | _Database Administrator / Back end developer_
-* Brandon Morgan | _Marketing / Information Designer_
-* Gregory Sullivan | _Software Developer_
-* C.J. Kee | _Software Developer_
+Chandler White | _Team Lead_
+Daniel Lucy | _Database Administrator / Back end developer_
+Brandon Morgan | _Marketing / Information Designer_
+Gregory Sullivan | _Software Developer_
+C.J. Kee | _Software Developer_
 
 ### Content Goal
 Windows based graphical application to create, read, update, and delete data for Northwind
