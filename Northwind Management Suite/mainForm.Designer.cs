@@ -34,6 +34,7 @@
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.githubRepositoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.viewControlGroupBox = new System.Windows.Forms.GroupBox();
             this.viewControlComboBox = new System.Windows.Forms.ComboBox();
@@ -211,7 +212,6 @@
             this.productsTableAdapter = new Northwind_Management_Suite.BusinessDatabaseTableAdapters.ProductsTableAdapter();
             this.shippersTableAdapter = new Northwind_Management_Suite.BusinessDatabaseTableAdapters.ShippersTableAdapter();
             this.suppliersTableAdapter = new Northwind_Management_Suite.BusinessDatabaseTableAdapters.SuppliersTableAdapter();
-            this.githubRepositoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -268,7 +268,7 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1097, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1336, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -291,6 +291,13 @@
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // githubRepositoryToolStripMenuItem
+            // 
+            this.githubRepositoryToolStripMenuItem.Name = "githubRepositoryToolStripMenuItem";
+            this.githubRepositoryToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.githubRepositoryToolStripMenuItem.Text = "Github Repository";
+            this.githubRepositoryToolStripMenuItem.Click += new System.EventHandler(this.githubRepositoryToolStripMenuItem_Click);
             // 
             // splitContainer1
             // 
@@ -321,8 +328,8 @@
             this.splitContainer1.Panel2.Controls.Add(this.employeesDataGridView);
             this.splitContainer1.Panel2.Controls.Add(this.categoriesDataGridView);
             this.splitContainer1.Panel2.Controls.Add(this.customersDataGridView);
-            this.splitContainer1.Size = new System.Drawing.Size(1097, 537);
-            this.splitContainer1.SplitterDistance = 292;
+            this.splitContainer1.Size = new System.Drawing.Size(1336, 675);
+            this.splitContainer1.SplitterDistance = 355;
             this.splitContainer1.TabIndex = 1;
             // 
             // viewControlGroupBox
@@ -449,7 +456,6 @@
             // 
             this.bindingNavigatorPositionItem1.AccessibleName = "Position";
             this.bindingNavigatorPositionItem1.AutoSize = false;
-            this.bindingNavigatorPositionItem1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem1.Name = "bindingNavigatorPositionItem1";
             this.bindingNavigatorPositionItem1.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem1.Text = "0";
@@ -575,7 +581,6 @@
             // 
             this.bindingNavigatorPositionItem7.AccessibleName = "Position";
             this.bindingNavigatorPositionItem7.AutoSize = false;
-            this.bindingNavigatorPositionItem7.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem7.Name = "bindingNavigatorPositionItem7";
             this.bindingNavigatorPositionItem7.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem7.Text = "0";
@@ -696,7 +701,6 @@
             // 
             this.bindingNavigatorPositionItem6.AccessibleName = "Position";
             this.bindingNavigatorPositionItem6.AutoSize = false;
-            this.bindingNavigatorPositionItem6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem6.Name = "bindingNavigatorPositionItem6";
             this.bindingNavigatorPositionItem6.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem6.Text = "0";
@@ -817,7 +821,6 @@
             // 
             this.bindingNavigatorPositionItem5.AccessibleName = "Position";
             this.bindingNavigatorPositionItem5.AutoSize = false;
-            this.bindingNavigatorPositionItem5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem5.Name = "bindingNavigatorPositionItem5";
             this.bindingNavigatorPositionItem5.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem5.Text = "0";
@@ -938,7 +941,6 @@
             // 
             this.bindingNavigatorPositionItem4.AccessibleName = "Position";
             this.bindingNavigatorPositionItem4.AutoSize = false;
-            this.bindingNavigatorPositionItem4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem4.Name = "bindingNavigatorPositionItem4";
             this.bindingNavigatorPositionItem4.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem4.Text = "0";
@@ -1059,7 +1061,6 @@
             // 
             this.bindingNavigatorPositionItem3.AccessibleName = "Position";
             this.bindingNavigatorPositionItem3.AutoSize = false;
-            this.bindingNavigatorPositionItem3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem3.Name = "bindingNavigatorPositionItem3";
             this.bindingNavigatorPositionItem3.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem3.Text = "0";
@@ -1180,7 +1181,6 @@
             // 
             this.bindingNavigatorPositionItem2.AccessibleName = "Position";
             this.bindingNavigatorPositionItem2.AutoSize = false;
-            this.bindingNavigatorPositionItem2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem2.Name = "bindingNavigatorPositionItem2";
             this.bindingNavigatorPositionItem2.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem2.Text = "1";
@@ -1302,7 +1302,6 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -1361,7 +1360,7 @@
             this.suppliersDataGridView.DataSource = this.suppliersBindingSource;
             this.suppliersDataGridView.Location = new System.Drawing.Point(3, 25);
             this.suppliersDataGridView.Name = "suppliersDataGridView";
-            this.suppliersDataGridView.Size = new System.Drawing.Size(786, 500);
+            this.suppliersDataGridView.Size = new System.Drawing.Size(962, 638);
             this.suppliersDataGridView.TabIndex = 9;
             this.suppliersDataGridView.Visible = false;
             // 
@@ -1824,18 +1823,11 @@
             // 
             this.suppliersTableAdapter.ClearBeforeFill = true;
             // 
-            // githubRepositoryToolStripMenuItem
-            // 
-            this.githubRepositoryToolStripMenuItem.Name = "githubRepositoryToolStripMenuItem";
-            this.githubRepositoryToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.githubRepositoryToolStripMenuItem.Text = "Github Repository";
-            this.githubRepositoryToolStripMenuItem.Click += new System.EventHandler(this.githubRepositoryToolStripMenuItem_Click);
-            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1097, 561);
+            this.ClientSize = new System.Drawing.Size(1336, 699);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.menuStrip1);
             this.Name = "mainForm";
