@@ -14,7 +14,7 @@ C.J. Kee | _Software Developer_
 ### Content Goal
 Windows based graphical application to create, read, update, and delete data for Northwind Food Supply
 
-### Audience 
+### Target Audience 
 Northwind database administrators and employees
 
 ------------------------------------------------------------------------------------------
