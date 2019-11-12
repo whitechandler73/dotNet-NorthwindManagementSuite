@@ -25,7 +25,7 @@ namespace Northwind_Management_Suite
                     this.Text = "Northwind Management Suite (Viewing Categories)";
 
                     categoriesDataGridView.Visible = true;
-                    categoriesBindingNavigator.Visible = true;
+                    //categoriesBindingNavigator.Visible = true;
 
                     
                     customersDataGridView.Visible = false;
@@ -36,13 +36,13 @@ namespace Northwind_Management_Suite
                     shippersDataGridView.Visible = false;
                     suppliersDataGridView.Visible = false;
 
-                    customersBindingNavigator.Visible = false;
-                    employeesBindingNavigator.Visible = false;
-                    orderDetailsBindingNavigator.Visible = false;
-                    ordersBindingNavigator.Visible = false;
-                    productsBindingNavigator.Visible = false;
-                    shippersBindingNavigator.Visible = false;
-                    suppliersBindingNavigator1.Visible = false;
+                    //customersBindingNavigator.Visible = false;
+                    //employeesBindingNavigator.Visible = false;
+                    //orderDetailsBindingNavigator.Visible = false;
+                    //ordersBindingNavigator.Visible = false;
+                    //productsBindingNavigator.Visible = false;
+                    //shippersBindingNavigator.Visible = false;
+                    //suppliersBindingNavigator1.Visible = false;
 
                     break;
 
@@ -50,7 +50,7 @@ namespace Northwind_Management_Suite
                     this.Text = "Northwind Management Suite (Viewing Customers)";
 
                     customersDataGridView.Visible = true;
-                    customersBindingNavigator.Visible = true;
+                    //customersBindingNavigator.Visible = true;
 
                     categoriesDataGridView.Visible = false;
                     employeesDataGridView.Visible = false;
@@ -61,13 +61,13 @@ namespace Northwind_Management_Suite
                     suppliersDataGridView.Visible = false;
 
                     
-                    categoriesBindingNavigator.Visible = false;
-                    employeesBindingNavigator.Visible = false;
-                    orderDetailsBindingNavigator.Visible = false;
-                    ordersBindingNavigator.Visible = false;
-                    productsBindingNavigator.Visible = false;
-                    shippersBindingNavigator.Visible = false;
-                    suppliersBindingNavigator1.Visible = false;
+                    //categoriesBindingNavigator.Visible = false;
+                    //employeesBindingNavigator.Visible = false;
+                    //orderDetailsBindingNavigator.Visible = false;
+                    //ordersBindingNavigator.Visible = false;
+                    //productsBindingNavigator.Visible = false;
+                    //shippersBindingNavigator.Visible = false;
+                    //suppliersBindingNavigator1.Visible = false;
 
                     break;
 
@@ -75,7 +75,7 @@ namespace Northwind_Management_Suite
                     this.Text = "Northwind Management Suite (Viewing Employees)";
 
                     employeesDataGridView.Visible = true;
-                    employeesBindingNavigator.Visible = true;
+                    //employeesBindingNavigator.Visible = true;
 
                     customersDataGridView.Visible = false;            
                     categoriesDataGridView.Visible = false;
@@ -85,20 +85,20 @@ namespace Northwind_Management_Suite
                     shippersDataGridView.Visible = false;
                     suppliersDataGridView.Visible = false;
 
-                    categoriesBindingNavigator.Visible = false;
-                    customersBindingNavigator.Visible = false;
-                    categoriesBindingNavigator.Visible = false;
-                    orderDetailsBindingNavigator.Visible = false;
-                    productsBindingNavigator.Visible = false;
-                    shippersBindingNavigator.Visible = false;
-                    suppliersBindingNavigator1.Visible = false;
+                    //categoriesBindingNavigator.Visible = false;
+                    //customersBindingNavigator.Visible = false;
+                    //categoriesBindingNavigator.Visible = false;
+                    //orderDetailsBindingNavigator.Visible = false;
+                    //productsBindingNavigator.Visible = false;
+                    //shippersBindingNavigator.Visible = false;
+                    //suppliersBindingNavigator1.Visible = false;
 
                     break;
                 case 3:
                     this.Text = "Northwind Management Suite (Viewing Order Details)";
 
                     order_DetailsDataGridView.Visible = true;
-                    orderDetailsBindingNavigator.Visible = true;
+                    //orderDetailsBindingNavigator.Visible = true;
 
                     employeesDataGridView.Visible = false;
                     customersDataGridView.Visible = false;
@@ -108,15 +108,15 @@ namespace Northwind_Management_Suite
                     shippersDataGridView.Visible = false;
                     suppliersDataGridView.Visible = false;
 
-                    categoriesBindingNavigator.Visible = false;
-                    employeesBindingNavigator.Visible = false;
-                    customersBindingNavigator.Visible = false;
-                    categoriesBindingNavigator.Visible = false;
-                    productsBindingNavigator.Visible = false;
-                    productsBindingNavigator.Visible = false;
-                    ordersBindingNavigator.Visible = false;
-                    shippersBindingNavigator.Visible = false;
-                    suppliersBindingNavigator1.Visible = false;
+                    //categoriesBindingNavigator.Visible = false;
+                    //employeesBindingNavigator.Visible = false;
+                    //customersBindingNavigator.Visible = false;
+                    //categoriesBindingNavigator.Visible = false;
+                    //productsBindingNavigator.Visible = false;
+                    //productsBindingNavigator.Visible = false;
+                    //ordersBindingNavigator.Visible = false;
+                    //shippersBindingNavigator.Visible = false;
+                    //suppliersBindingNavigator1.Visible = false;
 
                     break;
 
@@ -124,7 +124,7 @@ namespace Northwind_Management_Suite
                     this.Text = "Northwind Management Suite (Viewing Oders)";
 
                     ordersDataGridView.Visible = true;
-                    ordersBindingNavigator.Visible = true;
+                    //ordersBindingNavigator.Visible = true;
 
                     order_DetailsDataGridView.Visible = false;
                     employeesDataGridView.Visible = false;
@@ -135,13 +135,13 @@ namespace Northwind_Management_Suite
                     suppliersDataGridView.Visible = false;
 
                     
-                    categoriesBindingNavigator.Visible = false;
-                    orderDetailsBindingNavigator.Visible = false;
-                    employeesBindingNavigator.Visible = false;
-                    customersBindingNavigator.Visible = false;
-                    productsBindingNavigator.Visible = false;
-                    shippersBindingNavigator.Visible = false;
-                    suppliersBindingNavigator1.Visible = false;
+                    //categoriesBindingNavigator.Visible = false;
+                    //orderDetailsBindingNavigator.Visible = false;
+                    //employeesBindingNavigator.Visible = false;
+                    //customersBindingNavigator.Visible = false;
+                    //productsBindingNavigator.Visible = false;
+                    //shippersBindingNavigator.Visible = false;
+                    //suppliersBindingNavigator1.Visible = false;
 
                     break;
 
@@ -149,7 +149,7 @@ namespace Northwind_Management_Suite
                     this.Text = "Northwind Management Suite (Viewing Products)";
 
                     productsDataGridView.Visible = true;
-                    productsBindingNavigator.Visible = true;
+                    //productsBindingNavigator.Visible = true;
 
 
                     ordersDataGridView.Visible = false;
@@ -161,13 +161,13 @@ namespace Northwind_Management_Suite
                     suppliersDataGridView.Visible = false;
 
 
-                    categoriesBindingNavigator.Visible = false;
-                    ordersBindingNavigator.Visible = false;
-                    orderDetailsBindingNavigator.Visible = false;
-                    employeesBindingNavigator.Visible = false;
-                    customersBindingNavigator.Visible = false;
-                    shippersBindingNavigator.Visible = false;
-                    suppliersBindingNavigator1.Visible = false;
+                    //categoriesBindingNavigator.Visible = false;
+                    //ordersBindingNavigator.Visible = false;
+                    //orderDetailsBindingNavigator.Visible = false;
+                    //employeesBindingNavigator.Visible = false;
+                    //customersBindingNavigator.Visible = false;
+                    //shippersBindingNavigator.Visible = false;
+                    //suppliersBindingNavigator1.Visible = false;
 
                     break;
 
@@ -175,7 +175,7 @@ namespace Northwind_Management_Suite
                     this.Text = "Northwind Management Suite (Viewing Shippers)";
 
                     shippersDataGridView.Visible = true;
-                    shippersBindingNavigator.Visible = true;
+                    //shippersBindingNavigator.Visible = true;
 
                     productsDataGridView.Visible = false;
                     ordersDataGridView.Visible = false;
@@ -186,13 +186,13 @@ namespace Northwind_Management_Suite
                     suppliersDataGridView.Visible = false;
 
 
-                    categoriesBindingNavigator.Visible = false;
-                    productsBindingNavigator.Visible = false;
-                    ordersBindingNavigator.Visible = false;
-                    orderDetailsBindingNavigator.Visible = false;
-                    employeesBindingNavigator.Visible = false;
-                    customersBindingNavigator.Visible = false;
-                    suppliersBindingNavigator1.Visible = false;
+                    //categoriesBindingNavigator.Visible = false;
+                    //productsBindingNavigator.Visible = false;
+                    //ordersBindingNavigator.Visible = false;
+                    //orderDetailsBindingNavigator.Visible = false;
+                    //employeesBindingNavigator.Visible = false;
+                    //customersBindingNavigator.Visible = false;
+                    //suppliersBindingNavigator1.Visible = false;
 
                     break;
 
@@ -200,7 +200,7 @@ namespace Northwind_Management_Suite
                     this.Text = "Northwind Management Suite (Viewing Suppliers)";
 
                     suppliersDataGridView.Visible = true;
-                    suppliersBindingNavigator1.Visible = true;
+                    //suppliersBindingNavigator1.Visible = true;
 
                     shippersDataGridView.Visible = false;
                     productsDataGridView.Visible = false;
@@ -211,13 +211,13 @@ namespace Northwind_Management_Suite
                     categoriesDataGridView.Visible = false;
 
 
-                    categoriesBindingNavigator.Visible = false;
-                    shippersBindingNavigator.Visible = false;
-                    productsBindingNavigator.Visible = false;
-                    ordersBindingNavigator.Visible = false;
-                    orderDetailsBindingNavigator.Visible = false;
-                    employeesBindingNavigator.Visible = false;
-                    customersBindingNavigator.Visible = false;
+                    //categoriesBindingNavigator.Visible = false;
+                    //shippersBindingNavigator.Visible = false;
+                    //productsBindingNavigator.Visible = false;
+                    //ordersBindingNavigator.Visible = false;
+                    //orderDetailsBindingNavigator.Visible = false;
+                    //employeesBindingNavigator.Visible = false;
+                    //customersBindingNavigator.Visible = false;
 
                     break;
 
@@ -229,30 +229,47 @@ namespace Northwind_Management_Suite
 
         private void categoriesBindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
-            this.Validate();    
-            this.categoriesBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.businessDatabase);
+            try
+            {
+                this.Validate();
+                this.categoriesBindingSource.EndEdit();
+                this.tableAdapterManager.UpdateAll(this.businessDatabase);
+            } catch (Exception ex) {
+                MessageBox.Show("Oopsie! Error!\n" + ex.StackTrace.ToString());
+            }
+
 
         }
 
         private void mainForm_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'businessDatabase.Suppliers' table. You can move, or remove it, as needed.
-            this.suppliersTableAdapter.Fill(this.businessDatabase.Suppliers);
-            // TODO: This line of code loads data into the 'businessDatabase.Shippers' table. You can move, or remove it, as needed.
-            this.shippersTableAdapter.Fill(this.businessDatabase.Shippers);
-            // TODO: This line of code loads data into the 'businessDatabase.Products' table. You can move, or remove it, as needed.
-            this.productsTableAdapter.Fill(this.businessDatabase.Products);
-            // TODO: This line of code loads data into the 'businessDatabase.Orders' table. You can move, or remove it, as needed.
-            this.ordersTableAdapter.Fill(this.businessDatabase.Orders);
-            // TODO: This line of code loads data into the 'businessDatabase.Order_Details' table. You can move, or remove it, as needed.
-            this.order_DetailsTableAdapter.Fill(this.businessDatabase.Order_Details);
-            // TODO: This line of code loads data into the 'businessDatabase.Employees' table. You can move, or remove it, as needed.
-            this.employeesTableAdapter.Fill(this.businessDatabase.Employees);
-            // TODO: This line of code loads data into the 'businessDatabase.Customers' table. You can move, or remove it, as needed.
-            this.customersTableAdapter.Fill(this.businessDatabase.Customers);
-            this.categoriesTableAdapter.Fill(this.businessDatabase.Categories); // This works
+            try
+            {
+                this.suppliersTableAdapter.Fill(this.businessDatabase.Suppliers);
+                this.shippersTableAdapter.Fill(this.businessDatabase.Shippers);
+                this.productsTableAdapter.Fill(this.businessDatabase.Products);
+                this.ordersTableAdapter.Fill(this.businessDatabase.Orders);
+                this.order_DetailsTableAdapter.Fill(this.businessDatabase.Order_Details);
+                this.employeesTableAdapter.Fill(this.businessDatabase.Employees);
+                this.customersTableAdapter.Fill(this.businessDatabase.Customers);
+                this.categoriesTableAdapter.Fill(this.businessDatabase.Categories);
+            } catch (Exception ex) { MessageBox.Show("Oopsie! Error!\n" + ex.StackTrace.ToString()); }
 
+
+        }
+
+        private void githubRepositoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start("https://github.com/whitechandler73/dotNet-NorthwindManagementSuite");
+            }
+            catch (SystemException sysEx) { 
+                MessageBox.Show("Oopsie! Error!\n" + sysEx.StackTrace.ToString()); 
+            }
+            catch (Exception ex) { 
+                MessageBox.Show("Oopsie! Error!\n" + ex.StackTrace.ToString()); 
+            }
         }
     }
 }
