@@ -124,6 +124,7 @@ namespace Northwind_Management_Suite
                     this.Text = "Northwind Management Suite (Viewing Oders)";
 
                     ordersDataGridView.Visible = true;
+                    ordersBindingNavigator.Visible = true;
 
                     order_DetailsDataGridView.Visible = false;
                     employeesDataGridView.Visible = false;
@@ -135,13 +136,20 @@ namespace Northwind_Management_Suite
 
                     
                     categoriesBindingNavigator.Visible = false;
-                    /* Delete me and finish setting visibilities */
+                    orderDetailsBindingNavigator.Visible = false;
+                    employeesBindingNavigator.Visible = false;
+                    customersBindingNavigator.Visible = false;
+                    productsBindingNavigator.Visible = false;
+                    shippersBindingNavigator.Visible = false;
+                    suppliersBindingNavigator1.Visible = false;
+
                     break;
 
                 case 5:
                     this.Text = "Northwind Management Suite (Viewing Products)";
 
                     productsDataGridView.Visible = true;
+                    productsBindingNavigator.Visible = true;
 
 
                     ordersDataGridView.Visible = false;
@@ -154,7 +162,12 @@ namespace Northwind_Management_Suite
 
 
                     categoriesBindingNavigator.Visible = false;
-                    /* Delete me and finish setting visibilities */
+                    ordersBindingNavigator.Visible = false;
+                    orderDetailsBindingNavigator.Visible = false;
+                    employeesBindingNavigator.Visible = false;
+                    customersBindingNavigator.Visible = false;
+                    shippersBindingNavigator.Visible = false;
+                    suppliersBindingNavigator1.Visible = false;
                     break;
 
                 case 6:
