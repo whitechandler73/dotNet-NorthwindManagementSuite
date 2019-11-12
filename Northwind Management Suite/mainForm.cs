@@ -27,6 +27,7 @@ namespace Northwind_Management_Suite
                     categoriesDataGridView.Visible = true;
                     categoriesBindingNavigator.Visible = true;
 
+                    
                     customersDataGridView.Visible = false;
                     employeesDataGridView.Visible = false;
                     order_DetailsDataGridView.Visible = false;
@@ -34,12 +35,22 @@ namespace Northwind_Management_Suite
                     productsDataGridView.Visible = false;
                     shippersDataGridView.Visible = false;
                     suppliersDataGridView.Visible = false;
+
+                    customersBindingNavigator.Visible = false;
+                    employeesBindingNavigator.Visible = false;
+                    orderDetailsBindingNavigator.Visible = false;
+                    ordersBindingNavigator.Visible = false;
+                    productsBindingNavigator.Visible = false;
+                    shippersBindingNavigator.Visible = false;
+                    suppliersBindingNavigator1.Visible = false;
+
                     break;
 
                 case 1:
                     this.Text = "Northwind Management Suite (Viewing Customers)";
 
                     customersDataGridView.Visible = true;
+                    customersBindingNavigator.Visible = true;
 
                     categoriesDataGridView.Visible = false;
                     employeesDataGridView.Visible = false;
@@ -49,14 +60,22 @@ namespace Northwind_Management_Suite
                     shippersDataGridView.Visible = false;
                     suppliersDataGridView.Visible = false;
 
-
+                    
                     categoriesBindingNavigator.Visible = false;
+                    employeesBindingNavigator.Visible = false;
+                    orderDetailsBindingNavigator.Visible = false;
+                    ordersBindingNavigator.Visible = false;
+                    productsBindingNavigator.Visible = false;
+                    shippersBindingNavigator.Visible = false;
+                    suppliersBindingNavigator1.Visible = false;
+
                     break;
 
                 case 2:
                     this.Text = "Northwind Management Suite (Viewing Employees)";
 
                     employeesDataGridView.Visible = true;
+                    employeesBindingNavigator.Visible = true;
 
                     customersDataGridView.Visible = false;            
                     categoriesDataGridView.Visible = false;
@@ -66,14 +85,20 @@ namespace Northwind_Management_Suite
                     shippersDataGridView.Visible = false;
                     suppliersDataGridView.Visible = false;
 
-
                     categoriesBindingNavigator.Visible = false;
+                    customersBindingNavigator.Visible = false;
+                    categoriesBindingNavigator.Visible = false;
+                    orderDetailsBindingNavigator.Visible = false;
+                    productsBindingNavigator.Visible = false;
+                    shippersBindingNavigator.Visible = false;
+                    suppliersBindingNavigator1.Visible = false;
 
                     break;
                 case 3:
                     this.Text = "Northwind Management Suite (Viewing Order Details)";
 
                     order_DetailsDataGridView.Visible = true;
+                    orderDetailsBindingNavigator.Visible = true;
 
                     employeesDataGridView.Visible = false;
                     customersDataGridView.Visible = false;
@@ -83,8 +108,10 @@ namespace Northwind_Management_Suite
                     shippersDataGridView.Visible = false;
                     suppliersDataGridView.Visible = false;
 
-
                     categoriesBindingNavigator.Visible = false;
+                    employeesBindingNavigator.Visible = false;
+                    customersBindingNavigator.Visible = false; // Needs work
+
                     break;
 
                 case 4:
